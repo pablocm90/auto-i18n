@@ -4,7 +4,7 @@ require "auto/i18n/version"
 module Auto
   module I18n
     class << self
-      attr_accessor :configuration
+      attr_writer :configuration
     end
 
     def self.configuration
